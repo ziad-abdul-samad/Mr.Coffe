@@ -346,9 +346,7 @@ border-radius: 135px 135px 0 0;
 /* home button  */
 .button {
     display: inline-block;
-    background: linear-gradient(101deg,
-    hsl(228,66%,53%),
-    hsl(228,66%,47%));
+background-color: #956c50;
     color: #fff;
     padding: 14px 28px;
     border-radius: .5rem;
@@ -358,14 +356,44 @@ border-radius: 135px 135px 0 0;
     transition: .3s;
     cursor: pointer;
 }
-.button:hover {
-    box-shadow: 0 4px 12px hsla(228, 66%, 25%, .25);
-}
+
 .nav-boutton {
     display: none;
 }
 /* home button  */
 /* ###################### */
+/* subscribe section  */
+.subscribe {
+    padding: 2.5rem 0;
+}
+.subscribe-container {
+    background-color: white;
+    padding: 3rem 2rem;
+    border-radius: 1.25rem;
+    text-align: right;
+    border: 6px solid var(--border-color);
+}
+.subscribe-title {
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+    margin-bottom: 1rem;
+}
+.subscribe-description {
+    font-size: 0.90rem;
+    color: var(--text-color);
+    margin-bottom: .25rem;
+}
+.subscribe-description  span {
+    color: var(--second-color);
+}
+.subscribe-button {
+    border: 2px solid #fff;
+    background: var(--first-color-alt);
+    font-size: var(--small-font-size);
+}
+
+/* subscribe section  */
+
 /* popular section  */
 .popular-container {
     padding: 1rem 0 5rem;
